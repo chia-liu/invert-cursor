@@ -1,0 +1,31 @@
+* {
+    cursor: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .red {
+    width: 33vw;
+    height: 100vh;
+    position: absolute;
+    background: radial-gradient(farthest-side, #06D6A0 85%, transparent 100%) calc(var(--x) - .75em) calc(var(--y) - .75em)/1.5em 1.5em fixed no-repeat;
+    background-color: #E63946;
+  }
+  
+  .navy {
+    width: 33vw;
+    height: 100vh;
+    margin-left: 33vw;
+    position: absolute;
+    background: radial-gradient(farthest-side, #FFBE0B 95%, transparent 100%) calc(var(--x) - .75em) calc(var(--y) - .75em)/1.5em 1.5em fixed no-repeat;
+    background-color: #1D3557;
+  }
+  
+  .green {
+    width: 33vw;
+    height: 100vh;
+    margin-left: 66vw;
+    position: absolute;
+    background: radial-gradient(farthest-side, #EF233C 95%, transparent 100%) calc(var(--x) - .75em) calc(var(--y) - .75em)/1.5em 1.5em fixed no-repeat;
+    background-color: #52796F;
+  }
